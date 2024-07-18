@@ -1,0 +1,44 @@
+.container {
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 20px;
+}
+
+.logo-container {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.logo {
+	font-size: 2.5vw;
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+.container img {
+	border-radius: 100%;
+	width: 4vw;
+	height: auto;
+	margin: 0;
+}
+
+@media (max-width: 600px) {
+	.logo {
+		font-size: 1.2rem;
+		white-space: normal;
+		text-align: center;
+	}
+
+	.logo-container{
+		flex-direction: column;
+		align-items: center;
+		gap: 5px;
+	}
+
+	.container img {
+		width: 50px;
+	}
+}
