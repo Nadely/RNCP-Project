@@ -1,6 +1,6 @@
 # RNCP-Project
 
 Authors:
-- Arnauld Tly
+- Arnauld Tily
 - Erwan Cremey
 - Nadège Tettelin
